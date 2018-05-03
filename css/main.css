@@ -1,0 +1,117 @@
+body {
+	background: url(../img/bg.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.desktop_view {
+		margin-top: 4%;
+}
+.mobile_view {
+	display: none;
+}
+#errorMsg, #submit, #submit2 {
+	display: none;
+}
+.desktop_view video {
+	display: table;
+	margin: 0 auto;
+	border: 15px solid #fff;
+	margin-bottom: 20px;
+	-moz-box-shadow: 10px 10px 5px #0000008c;
+	-webkit-box-shadow: 10px 10px 5px #0000008c;
+	box-shadow: 10px 10px 5px #0000008c;
+}
+canvas {
+	display: none;
+	display: table;
+	margin: 0 auto;
+	border: 15px solid #fff;
+	margin-bottom: 20px;
+}
+.butn-01 {
+	display: table;
+	margin: 0 auto;
+}
+.butn-01 button {
+	padding: 10px 30px;
+	border-radius: 3px;
+	border: none;
+	background: #bf0808;
+	color: #fff;
+	font-weight: bold;
+	font-size: 15px;
+	float: left;
+	margin-right: 10px;
+	border-bottom: 3px solid #6b0707;
+}
+.btn-2 {
+	padding: 10px 30px;
+	border-radius: 3px;
+	border: none;
+	background: #bf0808;
+	color: #fff;
+	font-weight: bold;
+	font-size: 15px;
+	margin: 0px auto 0 auto;
+	display: table;
+	border-bottom: 3px solid #6b0707;
+}
+.butn-01 form {
+	float: left;
+}
+.photo-box {
+	float: left;
+	border: 2px solid #fff;
+	width: 18%;
+	background: #fff;
+	margin-right: 2%;
+	-moz-box-shadow: 10px 10px 5px #0000008c;
+	-webkit-box-shadow: 10px 10px 5px #0000008c;
+	box-shadow: 10px 10px 5px #0000008c;
+}
+.photo-box img {
+	display: block;
+	margin-bottom: 10px;
+	width: 100%;
+}
+.photo-box .age, .photo-box .gender, .photo-box .ethnicity , .photo-box .emotion {
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+	color: #66371d;
+}
+.photo-box span + span {
+	color: #000;
+}
+.hidden {
+	display: none;
+}
+.margin-btm {
+	margin-bottom: 10px;
+	margin-top: 25%;
+}
+#new {
+	display: none;
+}
+@media (max-width: 1023px) {
+	.desktop_view {
+		display: none;
+	}
+	.mobile_view {
+		display: block;
+	}
+}
+@media (max-width: 991px) {
+	.photo-box {
+		width: 48%;
+	}
+}
+@media (max-width: 500px) {
+	.photo-box {
+		width: 98%;
+		margin-bottom: 20px;
+	}
+}
